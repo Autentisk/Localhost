@@ -1,0 +1,6 @@
+.centered-container {
+  display: flex;
+  justify-content: center;
+  
+  height: 200vh; /* Adjust the height to fit your needs */
+}

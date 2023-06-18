@@ -1,0 +1,54 @@
+/* App.css */
+
+.layout {
+    position: relative;
+  }
+.header-content{
+  padding: 0%;
+}
+  .logo {
+    width: 64px;
+    top: auto;
+    height: auto;
+    padding: 0%;
+    float: left;
+  }
+  
+  .logo img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .logo img {
+    height: 100%;
+  }
+  
+  .connectButton {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+  }
+  .ant-popover-content p {
+    margin: 0;
+  }
+
+  .buttonWidth {
+    width: 120px;
+  }
+
+  .popoverButton {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+  }
+  .popoverWidt {
+    width: 500px;
+  }
