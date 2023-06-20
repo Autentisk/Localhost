@@ -6,7 +6,10 @@
     "chain": "hardhat node --network hardhat --no-deploy",
     "test": "npx hardhat test",
     "deploy": "hardhat run ./deploy/deploySystem.ts --network localhost",
-    "demo": "hardhat run ./scripts/purchase.ts --network localhost"
+    "purchase": "hardhat run scripts/purchase.ts --network localhost",
+    "sell": "hardhat run ./scripts/sell.ts --network localhost",
+    "review": "hardhat run ./scripts/review.ts --network localhost",
+    "burn": "hardhat run ./scripts/burn.ts --network localhost"
   },
   "keywords": [],
   "author": "",
